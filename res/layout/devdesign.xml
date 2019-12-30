@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/devimage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/android"/>
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_below="@+id/devimage"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="\t\tAndroid Devloper"
+        android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/text02"
+        android:layout_below="@+id/text01"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        android:textSize="35dp"
+
+        android:layout_height="wrap_content"
+        android:text="\t\tAddress"/>
+
+
+
+    <TextView
+        android:id="@+id/text03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text02"
+        android:layout_marginTop="22dp"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:paddingLeft="15dp"
+        android:text="\t\tE-Mail" />
+
+
+</RelativeLayout>
